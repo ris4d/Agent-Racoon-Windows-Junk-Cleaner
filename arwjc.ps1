@@ -1,36 +1,3 @@
-﻿##[Ps1 To Exe]
-##
-##Kd3HDZOFADWE8uO1
-##Nc3NCtDXTlKDjobQ7iR75F/rUVRmfMSYurmoysy0+uvo9ijYWpkbXRlhkyroC1nwC6NDBKFB7IJfXB4lTw==
-##Kd3HFJGZHWLWoLaVvnQnhQ==
-##LM/RF4eFHHGZ7/K1
-##K8rLFtDXTiW5
-##OsHQCZGeTiiZ4NI=
-##OcrLFtDXTiy5
-##LM/BD5WYTiiZ4tI=
-##McvWDJ+OTiiZ4tI=
-##OMvOC56PFnzN8u+Vs1Q=
-##M9jHFoeYB2Hc8u+Vs1Q=
-##PdrWFpmIG2HcofKIo2QX
-##OMfRFJyLFzWE8uO1
-##KsfMAp/KUzWI0g==
-##OsfOAYaPHGbQvbyVvnR24k7gVnoqbcqUt+T3ldiqroo=
-##LNzNAIWJGmPcoKHc7Do3uAu8EjlyeJT7
-##LNzNAIWJGnvYv7eVvnRW4k7gVigZb8aUtrjn95G5+u6smSrWWo50
-##M9zLA5mED3nfu77Q7TV64AuzAkksa8uP+YSmx46z8Yo=
-##NcDWAYKED3nfu77Q7TV64AuzAgg=
-##OMvRB4KDHmHQvbyVvnQX
-##P8HPFJGEFzWE8p/c5TV06k/rIg==
-##KNzDAJWHD2fS8u+VQf036ELoQ2skasDbmrm11I6u/v7ltCvKKQ==
-##P8HSHYKDCX3N8u+VQf036ELoQ2skasD7
-##LNzLEpGeC3fMu77Ro2k3hQ==
-##L97HB5mLAnfMu77Ro2k3hQ==
-##P8HPCZWEGmaZ7/K1
-##L8/UAdDXTlKDjpPS5jpjpXnvQWckYIWom/ii3ITc
-##Kc/BRM3KXxU=
-##
-##
-##fd6a9f26a06ea3bc99616d4851b372ba
 $host.ui.rawui.windowtitle="© mifacode corporations ~ www.mifacode.com"
 
 function pause {
@@ -39,18 +6,16 @@ read-host
 }
 
 $pk = 'agentracoon2019v1001'
-write-host Purchase This Software By Sending 2 BitCoins To This Wallet Address: 1HK16yBJzqfLACgfWiwt5AmS54mLy5ikYh -foregroundcolor cyan
-write-host contact us with transaction proof at mifacode@mifacode.com -foregroundcolor green
-write-host Once Received, We will Send The Product Key via Email You Provide -foregroundcolor magenta
+write-host Just enter script name and version to activate -foregroundcolor cyan
+
 do {
 $a=read-host Enter Product key To Launch Program
 if($a -eq $pk) {
 write-host Product Key Valid! -foregroundcolor green
 }
 else {
-write-host Invalid Product Key. Purchase This Software By Sending 2 BitCoins to 1HK16yBJzqfLACgfWiwt5AmS54mLy5ikYh -foregroundcolor cyan
-write-host contact us with transaction proof at mifacode@mifacode.com -foregroundcolor green
-write-host Once Received, We will Send The Product Key via Email You Provide -foregroundcolor magenta
+write-host Invalid Product Key.  -foregroundcolor cyan
+
 }
 }
 while ($a -ne 'agentracoon2019v1001')
@@ -62,7 +27,7 @@ write-host = -foregroundcolor YELLOW
 write-host = -foregroundcolor YELLOW
 write-host = -foregroundcolor YELLOW
 write-host = -foregroundcolor YELLOW
-write-host = -foregroundcolor yellow -backgroundcolor red                THANK YOU FOR PURCHASING AGENT RACOON SPEED BOOST UTILITY SOFTWARE V 2019.1
+write-host = -foregroundcolor yellow -backgroundcolor red                THANK YOU FOR using AGENT RACOON SPEED BOOST UTILITY SOFTWARE V 2019.1
 write-host = -foregroundcolor YELLOW
 write-host = -foregroundcolor YELLOW
 write-host ================= -foregroundcolor yellow -backgroundcolor red                             BY © MIFACODE CORPORATIONS. ALL RIGHTS RESERVED    
